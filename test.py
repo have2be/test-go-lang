@@ -1,4 +1,9 @@
 import tensorflow as tf
 import numpy as np
 
-print "Hello, World"
+def main(argv=None):
+  print "Hello, World"
+
+  if __name__ == '__main__':
+    tf.app.run()
+  
